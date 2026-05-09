@@ -8,6 +8,7 @@ The entire pipeline is written in Python, runs end-to-end without manual annotat
 
 
 
+
 The Dataset
 ------------
 
@@ -15,7 +16,16 @@ The Dataset
     dataset/Train.csv         The main training data (12,575 sentences)
     dataset/Test.csv          The evaluation set (1,586 sentences)
     dataset/Val.csv           A validation split included in the original dataset
+    Taken from: https://www.kaggle.com/datasets/cryptexcode/sentnob-sentiment-analysis-in-noisy-bangla-texts
+    @inproceedings{islam2021sentnob,
+      title={SentNoB: A Dataset for Analysing Sentiment on Noisy Bangla Texts},
+      author={Islam, Khondoker Ittehadul and Kar, Sudipta and Islam, Md Saiful and Amin, Mohammad Ruhul},
+      booktitle={Findings of the Association for Computational Linguistics: EMNLP 2021},
+      pages={3265--3271},
+      year={2021}
+    }
 
+     ----   ---------
     dataset/Easy_Sentences.csv         Test sentences scored as linguistically simpler
     dataset/Hard_Sentences.csv         Test sentences with high rates of rare/dialectal words
     dataset/Hard_Words_Vocabulary.csv  Every rare word extracted from the training corpus
